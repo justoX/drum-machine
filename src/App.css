@@ -1,0 +1,29 @@
+#drum-machine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px; /* set the width of the container */
+}
+
+.drum-pad {
+  flex-basis: calc(33.33% - 20px); /* set the width of each inner div to one third of the container's width */
+  margin: 10px; /* add some margin between the divs */
+  background-color: #ccc;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: larger;
+}
+
+#display {
+  height: 1rem;
+}
